@@ -109,8 +109,13 @@ body {
 /*baner*/
 .description {
   display: flex;
-  background: var(--brand-two-color);
   min-height: 600px;
+  background-image: linear-gradient(0deg,
+    rgba(47, 48, 58, 0.4) 0%,
+    rgba(47, 48, 58, 0.4) 100%), url("../image/photobanner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1600px;
 }
 
 .description-name {
