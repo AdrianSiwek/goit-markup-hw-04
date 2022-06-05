@@ -153,7 +153,6 @@ body {
 
 /*Lorem Ipsum*/
 .elaboration {
-  margin-top: 94px;
   display: flex;
   justify-content: center;
   text-align: left;
@@ -187,6 +186,7 @@ body {
 .segregate {
   justify-content: center;
   display: flex;
+  padding-bottom: 94px;
 }
 
 .segregate-photography {
@@ -206,7 +206,6 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -323,7 +322,6 @@ padding-top: 60px;
   display: flex;
   justify-content: center;
   cursor: pointer;
-  margin-top: 94px;
   align-items: center;
   list-style: none;
   margin-bottom: 50px;
@@ -356,6 +354,7 @@ padding-top: 60px;
   cursor: pointer;
 }
 
+/*Portfolio*/
 .offer {
   display: flex;
   flex-wrap: wrap;
@@ -364,14 +363,19 @@ padding-top: 60px;
 }
 
 .offer-photo {
-  display: flex;
   max-width: 370px;
   max-height: 404px;
   list-style-type: none;
   flex-basis: calc((100%-30px) / 3);
-  margin-left: 15px;
-  margin-left: 15px;
   border: 0px;
+}
+
+.offer-discription{
+  margin-top: -6px;
+    list-style: none;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
 }
 
 .offer-photo > img {
@@ -379,24 +383,25 @@ padding-top: 60px;
 }
 
 .offer-name {
-  font-family: "Roboto";
-  font-style: normal;
+padding-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 4px;
+  text-align: left;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  padding-top: 20px;
-  padding-right: 24px;
-  padding-bottom: 4px;
-  justify-content: center;
 }
 
 .offer-name-title {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.875;
-  letter-spacing: 0.03em;
+  padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
   color: var(--brand-contact-color);
 }
