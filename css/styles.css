@@ -324,6 +324,7 @@ body {
 
 .client-item-icon {
   fill: #afb1b8;
+  border-color: var(--brand-second-color);
 }
 
 .client-item:active,
@@ -347,7 +348,6 @@ footer {
   display: flex;
   align-items: flex-start;
   color: rgba(255, 255, 255, 0.6);
-  padding-top: 60px;
 }
 
 .highlight {
@@ -366,6 +366,7 @@ footer {
 
 .footer-section {
   padding-bottom: 60px;
+  padding-top: 60px;
 }
 
 .information-adres {
@@ -400,11 +401,8 @@ footer {
 }
 
 .socialmedia {
-  display: flex;
-  justify-content: center;
   margin-top: 12px;
   padding-left: 70px;
-  border-top: 72px;
 }
 
 .footer-socialmedia h3 {
@@ -431,6 +429,7 @@ footer {
 
 .footer-socialmedia li {
   display: flex;
+  justify-content: space-between;
 }
 
 .icons-footer {
