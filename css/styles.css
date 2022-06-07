@@ -96,10 +96,6 @@ body {
   margin-left: 50px;
 }
 
-.icon-cont {
-  fill: var(--icon-color);
-}
-
 .buttons-contact-link:active,
 .buttons-contact-link:hover,
 .buttons-contact-link:focus {
@@ -115,7 +111,7 @@ body {
 .icon-cont:active,
 .icon-cont:hover,
 .icon-cont:focus {
-  color: var(--brand-mlight-color);
+  color: #2196f3;
 }
 
 /*baner*/
@@ -175,8 +171,7 @@ body {
 .elaboration {
   display: flex;
   justify-content: center;
-  text-align: left;
-  flex-basis: calc((100%-30px) / 3);
+  flex-basis: calc((100%-30px) / 4);
 }
 
 .elaboration-item-icon {
@@ -191,7 +186,11 @@ body {
   background-color: #f5f4fa;
   border-radius: 4px;
   list-style-type: none;
-  flex-basis: calc((100%-30px) / 3);
+  flex-basis: calc((100%-30px) / 4);
+}
+
+.icon {
+  display: flex;
 }
 
 .elaboration-position {
@@ -259,6 +258,7 @@ body {
   padding-bottom: 30px;
   width: 270px;
   height: 428px;
+  background-color: var(--brand-second-color);
 }
 
 .team-component-person:first-child {
@@ -290,6 +290,19 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--brand-contact-color);
+}
+
+.icone {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.icon-team {
+  fill: #ffffff;
+  margin-top: 16px;
+  margin-bottom: 18px;
 }
 
 /*Nasi klienci*/
@@ -334,6 +347,7 @@ footer {
   display: flex;
   align-items: flex-start;
   color: rgba(255, 255, 255, 0.6);
+  padding-top: 60px;
 }
 
 .highlight {
@@ -351,7 +365,6 @@ footer {
 }
 
 .footer-section {
-  padding-top: 60px;
   padding-bottom: 60px;
 }
 
@@ -387,8 +400,11 @@ footer {
 }
 
 .socialmedia {
+  display: flex;
+  justify-content: center;
   margin-top: 12px;
   padding-left: 70px;
+  border-top: 72px;
 }
 
 .footer-socialmedia h3 {
