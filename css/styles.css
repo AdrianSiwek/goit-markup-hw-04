@@ -303,16 +303,26 @@ body {
   padding-right: 32px;
 }
 
-.icon-team {
-  fill: var(--icon-color);
+.elipse-icon {
   margin-top: 16px;
   margin-bottom: 18px;
 }
 
-.icon-team:active,
-.icon-team:hover,
-.icon-team:focus {
-  fill:#2196f3
+.icon-team {
+  fill: var(--icon-color);
+}
+
+.elipse {
+  fill: transparent;
+  margin-top: 16px;
+  margin-bottom: 18px;
+}
+
+.elipse:active,
+.elipse:hover,
+.elipse:focus {
+  fill: var(--brand-mlight-color);
+  cursor: pointer;
 }
 
 /*Nasi klienci*/
@@ -446,24 +456,19 @@ footer {
   display: flex;
 }
 
+.ellipse {
+  fill: rgba(255, 255, 255, 0.1);
+}
+
 .icons-footer {
   fill: var(--brand-second-color);
 }
 
-.elipse {
-  display: flex;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background-color: transparent;
-  justify-content: center;
-  align-items: center;
-}
-
-.icons-footer:active,
-.icons-footer:hover,
-.icons-footer:focus {
- fill: var(--brand-mlight-color);
+.ellipse:active,
+.ellipse:hover,
+.ellipse:focus{
+  fill: var(--brand-mlight-color);
+  cursor: pointer;
 }
 
 /*menu*/
