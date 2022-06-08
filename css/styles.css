@@ -299,8 +299,12 @@ body {
 .icone {
   display: flex;
   justify-content: space-around;
-  padding-left: 32px;
-  padding-right: 32px;
+}
+
+.icone-style {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
 
 .elipse-icon {
@@ -313,16 +317,25 @@ body {
 }
 
 .elipse {
-  fill: transparent;
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
   margin-top: 16px;
   margin-bottom: 18px;
 }
 
-.elipse:active,
-.elipse:hover,
-.elipse:focus {
-  fill: var(--brand-mlight-color);
-  cursor: pointer;
+.lightening:active,
+.lightening:hover,
+.lightening:focus {
+  fill: var(--brand-second-color);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #2196f3;
 }
 
 /*Nasi klienci*/
@@ -340,11 +353,7 @@ body {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-}
-
-.client-item-icon {
   fill: #afb1b8;
-  border-color: var(--brand-second-color);
 }
 
 .client-item:active,
@@ -352,12 +361,6 @@ body {
 .client-item:focus {
   fill: #2196f3;
   border-color: #2196f3;
-}
-
-.client-item-icon:active,
-.client-item-icon:hover,
-.client-item:focus {
-  fill: #2196f3;
 }
 
 /* footer*/
@@ -423,9 +426,11 @@ footer {
 .socialmedia {
   margin-top: 12px;
   padding-left: 70px;
+  width: 206px;
+  height: 80px;
 }
 
-.footer-socialmedia h3 {
+.socialmedia-h3 {
   text-align: left;
   font-family: "Roboto";
   font-style: normal;
@@ -439,40 +444,43 @@ footer {
   margin-bottom: 20px;
   color: var(--brand-second-color);
 }
-
 .footer-socialmedia {
-  text-align: left;
-  width: 206px;
-  height: 80px;
   list-style: none;
-}
-
-.footer-socialmedia li {
   display: flex;
   justify-content: space-between;
 }
 
-.icons {
-  display: flex;
-}
-
 .ellipse {
-  fill: rgba(255, 255, 255, 0.1);
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  justify-content: center;
+  align-items: center;
 }
 
 .icons-footer {
   fill: var(--brand-second-color);
 }
 
-.ellipse:active,
-.ellipse:hover,
-.ellipse:focus {
-  fill: var(--brand-mlight-color);
+.light {
+  padding-right: 10px;
+}
+
+.light:active,
+.light:hover,
+.light:focus {
+  fill: #2196f3;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #2196f3;
   cursor: pointer;
 }
 
 /*menu*/
-.section-menu{
+.section-menu {
   padding-top: 94px;
 }
 
@@ -513,7 +521,7 @@ footer {
 }
 
 /*Portfolio*/
-.section-offer{
+.section-offer {
   padding-bottom: 64px;
 }
 
