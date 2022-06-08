@@ -466,12 +466,16 @@ footer {
 
 .ellipse:active,
 .ellipse:hover,
-.ellipse:focus{
+.ellipse:focus {
   fill: var(--brand-mlight-color);
   cursor: pointer;
 }
 
 /*menu*/
+.section-menu{
+  padding-top: 94px;
+}
+
 .menu {
   display: flex;
   justify-content: center;
@@ -509,6 +513,10 @@ footer {
 }
 
 /*Portfolio*/
+.section-offer{
+  padding-bottom: 64px;
+}
+
 .offer {
   display: flex;
   flex-wrap: wrap;
@@ -517,6 +525,7 @@ footer {
 }
 
 .offer-photo {
+  margin-bottom: 30px;
   max-width: 370px;
   max-height: 404px;
   list-style-type: none;
@@ -534,6 +543,13 @@ footer {
 
 .offer-photo > img {
   object-fit: cover;
+}
+
+.offer-photo:active,
+.offer-photo:hover,
+.offer-photo:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .offer-name {
