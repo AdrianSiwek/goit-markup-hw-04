@@ -100,22 +100,17 @@ body {
   fill: var(--icon-color);
 }
 
-.buttons-contact-link:active,
-.buttons-contact-link:hover,
-.buttons-contact-link:focus {
+.buttons-contact-link .icon-cont:active,
+.buttons-contact-link .icon-cont:hover,
+.buttons-contact-link .icon-cont:focus {
   color: var(--brand-mlight-color);
+  fill: var(--brand-mlight-color);
 }
 
 .buttons-navi-link:active,
 .buttons-navi-link:hover,
 .buttons-navi-link:focus {
   color: var(--brand-mlight-color);
-}
-
-.icon-cont:active,
-.icon-cont:hover,
-.icon-cont:focus {
-  fill: var(--brand-mlight-color);
 }
 
 /*baner*/
@@ -318,9 +313,9 @@ body {
   align-items: center;
 }
 
-.icone-style:active,
-.icone-style:hover,
-.icone-style:focus {
+.elipse .icon-team:active,
+.elipse .icon-team:hover,
+.elipse .icon-team:focus {
   fill: var(--brand-second-color);
   border-radius: 50%;
   background-color: #2196f3;
@@ -452,9 +447,9 @@ footer {
   fill: var(--brand-second-color);
 }
 
-.light:active,
-.light:hover,
-.light:focus {
+.ellipse:active,
+.ellipse:hover,
+.ellipse:focus {
   fill: #2196f3;
   border-radius: 50%;
   background-color: #2196f3;
