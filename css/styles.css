@@ -328,6 +328,11 @@ body {
   margin-bottom: 18px;
 }
 
+.lightening{
+  width: 45px;
+  height: 45px;
+}
+
 .lightening:active,
 .lightening:hover,
 .lightening:focus {
