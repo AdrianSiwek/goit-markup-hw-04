@@ -90,21 +90,21 @@ body {
   letter-spacing: 0.02em;
 }
 
-.buttons-contact-link {
+.buttons-contact a {
   text-decoration: none;
   color: var(--brand-contact-color);
   margin-left: 50px;
 }
 
 .icon-cont {
-  fill: var(--icon-color);
+  fill: #afb1b8;
 }
 
-.buttons-contact-link .icon-cont:active,
-.buttons-contact-link .icon-cont:hover,
-.buttons-contact-link .icon-cont:focus {
-  color: var(--brand-mlight-color);
-  fill: var(--brand-mlight-color);
+.buttons-contact-link:active,
+.buttons-contact-link:hover,
+.buttons-contact-link:focus {
+fill: #2196f3;
+color: #2196f3;
 }
 
 .buttons-navi-link:active,
@@ -299,8 +299,10 @@ body {
  margin-right: 10px;
 }
 
-.icon-team {
-  fill: var(--icon-color);
+.icone-style{
+  display: flex;
+  justify-content: center;
+  padding-right: 10px;
 }
 
 .elipse {
@@ -311,11 +313,12 @@ body {
   background-color: transparent;
   justify-content: center;
   align-items: center;
+  fill: var(--icon-color);
 }
 
-.elipse .icon-team:active,
-.elipse .icon-team:hover,
-.elipse .icon-team:focus {
+.elipse:active,
+.elipse:hover,
+.elipse:focus {
   fill: var(--brand-second-color);
   border-radius: 50%;
   background-color: #2196f3;
@@ -433,6 +436,13 @@ footer {
   justify-content: space-between;
 }
 
+.light{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+padding-right: 10px;
+}
+
 .ellipse {
   display: flex;
   width: 44px;
@@ -441,16 +451,12 @@ footer {
   justify-content: center;
   align-items: center;
    background-color: rgba(255, 255, 255, 0.1);
-}
-
-.icons-footer {
-  fill: var(--brand-second-color);
+   fill: var(--brand-second-color);
 }
 
 .ellipse:active,
 .ellipse:hover,
 .ellipse:focus {
-  fill: #2196f3;
   border-radius: 50%;
   background-color: #2196f3;
   cursor: pointer;
